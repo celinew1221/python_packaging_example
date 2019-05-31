@@ -1,2 +1,3 @@
-from . import a1
-from . import a2
+# this should combine all functions in this folder in to module_a
+from .a1 import *
+from .a2 import *

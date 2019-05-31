@@ -10,6 +10,7 @@ import numpy as np
 def print():
     module_b.b.b()
     module_a.a1(np.array([0,0,0,0,0,1]))
+    module_a.a2([4,35])
 
 if __name__=="__main__":
     print()
